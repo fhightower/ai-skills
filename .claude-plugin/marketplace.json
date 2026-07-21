@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "fhightower",
+  "description": "Floyd Hightower's Claude Code skills.",
+  "owner": {
+    "name": "Floyd Hightower",
+    "url": "https://github.com/fhightower"
+  },
+  "plugins": [
+    {
+      "name": "ai-skills",
+      "description": "A collection of Claude Code skills for writing, research, and development workflows.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
