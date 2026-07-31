@@ -14,7 +14,7 @@ A collection of [Claude Code](https://claude.com/claude-code) skills for writing
 | Skill | What it does |
 | --- | --- |
 | [`proofreading-prose`](skills/proofreading-prose/SKILL.md) | Systematic grammar and typo review for prose files. Reports findings by line number before editing, separating hard errors from optional style nits. |
-| [`resuming-after-usage-limit`](skills/resuming-after-usage-limit/SKILL.md) | Checkpoints in-progress work and schedules a cloud routine to resume it automatically once a usage limit resets. |
+| [`resume-after-usage-limit`](skills/resume-after-usage-limit/SKILL.md) | Schedules a one-shot local cron job so the current session wakes itself up and continues the task once a usage limit resets. |
 | [`handle-dependabot-pr`](skills/handle-dependabot-pr/SKILL.md) | Triages a Dependabot PR — classifies the dependency, checks CI, investigates the upgrade, and applies consistent version-range handling. Never merges. |
 
 ## What is a skill?
