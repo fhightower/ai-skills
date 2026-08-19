@@ -16,6 +16,9 @@ A collection of [Claude Code](https://claude.com/claude-code) skills for writing
 | [`proofreading-prose`](skills/proofreading-prose/SKILL.md) | Systematic grammar and typo review for prose files. Reports findings by line number before editing, separating hard errors from optional style nits. |
 | [`resume-after-usage-limit`](skills/resume-after-usage-limit/SKILL.md) | Schedules a one-shot local cron job so the current session wakes itself up and continues the task once a usage limit resets. |
 | [`handle-dependabot-pr`](skills/handle-dependabot-pr/SKILL.md) | Triages a Dependabot PR — classifies the dependency, checks CI, investigates the upgrade, and applies consistent version-range handling. Never merges. |
+| [`conflicts-resolve`](skills/conflicts-resolve/SKILL.md) | Resolves git merge/rebase/cherry-pick conflicts that are mechanically unambiguous, and leaves everything requiring judgment untouched for you. Never commits or continues the operation. |
+| [`gh-actions-monitor`](skills/gh-actions-monitor/SKILL.md) | Watches a PR's GitHub Actions checks until they settle without busy-waiting, then reports pass/fail — pulling only the failed steps' logs to explain the cause. |
+| [`coderabbit-feedback`](skills/coderabbit-feedback/SKILL.md) | Verifies CodeRabbit actually reviewed a PR rather than assuming it did, triggers it if not, polls until the review lands, and surfaces only the unresolved actionable items. |
 
 ## What is a skill?
 
