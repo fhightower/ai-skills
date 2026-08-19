@@ -1,9 +1,9 @@
 ---
-name: handle-dependabot-pr
+name: dependabot-pr-handle
 description: Use when handling, reviewing, or triaging a Dependabot pull request — classifying the dependency, checking CI, investigating the upgrade, and applying consistent version-range handling before commenting (never merging).
 ---
 
-# Handle Dependabot PR
+# Dependabot PR Handling
 
 ## Overview
 

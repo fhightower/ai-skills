@@ -1,9 +1,9 @@
 ---
-name: proofreading-prose
+name: prose-proofreading
 description: Use when asked to check, proofread, or review a document, blog post, or other prose file for typos, spelling, or grammar issues, or when asked to fix such issues after they were identified.
 ---
 
-# Proofreading Prose
+# Prose Proofreading
 
 ## Overview
 
