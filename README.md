@@ -19,6 +19,7 @@ A collection of [Claude Code](https://claude.com/claude-code) skills for writing
 | [`conflicts-resolve`](skills/conflicts-resolve/SKILL.md) | Resolves git merge/rebase/cherry-pick conflicts that are mechanically unambiguous, and leaves everything requiring judgment untouched for you. Never commits or continues the operation. |
 | [`gh-actions-monitor`](skills/gh-actions-monitor/SKILL.md) | Watches a PR's GitHub Actions checks until they settle without busy-waiting, then reports pass/fail — pulling only the failed steps' logs to explain the cause. |
 | [`coderabbit-feedback`](skills/coderabbit-feedback/SKILL.md) | Verifies CodeRabbit actually reviewed a PR rather than assuming it did, triggers it if not, polls until the review lands, and surfaces only the unresolved actionable items. |
+| [`pr-diff-since-review`](skills/pr-diff-since-review/SKILL.md) | Builds a GitHub compare link showing only the commits pushed to a PR since its last human review — skipping bot reviews, and flagging when the branch was rebased or has nothing new. |
 
 ## What is a skill?
 
