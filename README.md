@@ -22,6 +22,7 @@ A collection of [Claude Code](https://claude.com/claude-code) skills for writing
 | [`pr-diff-since-review`](skills/pr-diff-since-review/SKILL.md) | Builds a GitHub compare link showing only the commits pushed to a PR since its last human review — skipping bot reviews, and flagging when the branch was rebased or has nothing new. |
 | [`re-review-pr`](skills/re-review-pr/SKILL.md) | Re-reviews a PR you already reviewed — gives every ask you left a verdict backed by evidence from the commits pushed since, and flags the changes nobody asked for. |
 | [`write-for-humans`](skills/write-for-humans/SKILL.md) | Makes an agent run both the [`i-have-adhd`](https://github.com/ayghri/i-have-adhd) and [`asd-ste100`](https://github.com/danyuchn/asd-ste100-skill) skills over anything a person will read — structure first, then sentences — so the output is direct and unpadded. |
+| [`second-opinion`](skills/second-opinion/SKILL.md) | Sends one question to two subagents on different models, then reports whether they agree — settling factual disagreements itself and escalating only the judgment calls. |
 
 ## What is a skill?
 
