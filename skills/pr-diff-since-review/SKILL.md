@@ -95,6 +95,6 @@ State whose review the baseline came from and when. "Since Sam's approval on Aug
 - **Treating `diverged` as broken.** It just means base commits are in the range. Warn, don't bail.
 - **Reading the newest review from array order.** Sort on `submitted_at`.
 
-> Only if you run the `rtk` hook: it replaces `gh api` output with a JSON *schema* when `--jq` emits an object, turning SHAs into `string`. Every `--jq` above returns a flat string for that reason. Keep it that way, or route around it with `/opt/homebrew/bin/gh`.
+> Only if you run the `rtk` hook: it replaces `gh api` output with a JSON *schema* when `--jq` emits an object, turning SHAs into `string`. Every `--jq` above returns a flat string for that reason. Keep it that way, or route around it with `gh`.
 
 Pairs with [`coderabbit-feedback`](../coderabbit-feedback/SKILL.md) and [`gh-actions-monitor`](../gh-actions-monitor/SKILL.md) for the rest of the review loop.
