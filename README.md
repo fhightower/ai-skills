@@ -25,6 +25,7 @@ A collection of [Claude Code](https://claude.com/claude-code) skills for writing
 | [`write-for-humans`](skills/write-for-humans/SKILL.md) | Makes an agent run both the [`i-have-adhd`](https://github.com/ayghri/i-have-adhd) and [`asd-ste100`](https://github.com/danyuchn/asd-ste100-skill) skills over anything a person will read — structure first, then sentences — so the output is direct and unpadded. |
 | [`second-opinion`](skills/second-opinion/SKILL.md) | Sends one question to two subagents on different models, then reports whether they agree — settling factual disagreements itself and escalating only the judgment calls. |
 | [`nack-stack`](skills/nack-stack/SKILL.md) | Keeps one running PR comment that lists the significant review-agent items the PR won't address, with a specific reason for each — edited in place. |
+| [`walk-through`](skills/walk-through/SKILL.md) | Walks a list one item per turn — the one you point at, or the agent's most recent — stopping after each for questions or actions, then summarizes what was done, skipped, and deferred. |
 
 ## What is a skill?
 
