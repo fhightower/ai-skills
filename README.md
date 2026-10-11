@@ -26,6 +26,7 @@ A collection of [Claude Code](https://claude.com/claude-code) skills for writing
 | [`second-opinion`](skills/second-opinion/SKILL.md) | Sends one question to two subagents on different models, then reports whether they agree — settling factual disagreements itself and escalating only the judgment calls. |
 | [`nack-stack`](skills/nack-stack/SKILL.md) | Keeps one running PR comment that lists the significant review-agent items the PR won't address, with a specific reason for each — edited in place. |
 | [`walk-through`](skills/walk-through/SKILL.md) | Walks a list one item per turn — the one you point at, or the agent's most recent — stopping after each for questions or actions, then summarizes what was done, skipped, and deferred. |
+| [`grill-me-adversarial`](skills/grill-me-adversarial/SKILL.md) | Challenges a ticket, plan, or PR against the underlying problem, tests its assumptions, and compares alternatives before recommending a direction. |
 
 ## What is a skill?
 
