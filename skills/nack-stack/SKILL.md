@@ -42,6 +42,7 @@ Row rules:
 - **One row per concern.** Several agents raising the same thing is still one row.
 - **Fixed after all?** Strike through its review item (`~~…~~`) and append `Addressed in <sha>` to the "Why not" column. Keep the row.
 - **Cells are single-line.** Escape `|` as `\|`, including inside backticks — GitHub splits the cell otherwise.
+- Don't reference any internal IDs in a row
 
 ## Workflow
 
